@@ -13,10 +13,10 @@ html {
 
 body {
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 10px;
     line-height: 1.42857143;
-    color: #333333;
+    color: #2d3c49;
     background-color: #ffffff;
 }
 
@@ -45,6 +45,7 @@ h2,
 
 h3,
 .h3 {
+    font-family: 'Titillium Web', Source Sans Pro;
     text-align: center;
     font-size: 4em;
     color: #7d97ad;
@@ -54,7 +55,7 @@ h3,
 
 a {
     text-decoration: none;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Raleway', cursive;
     color: red;
     font-size: 1.5em;
 }
@@ -167,8 +168,7 @@ a {
 
 #img-main {
     margin-top: 15px;
-    height: 100px;
-    width: 100px;
+    height: 500px;
 }
 
 .row-feature {

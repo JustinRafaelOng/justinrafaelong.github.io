@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="project-title">
+  <h1><span class="my-name">Justin&rsquo;s</span> Pixel Art Maker</h1>
+  </div>
+  <div class="menu">
+    <h2><span class="steps">1. </span>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <input value ="Create Grid" type="submit">
+    </form>
+
+    <h2><span class="steps">2. </span>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2><span class="steps">3. </span>Design Canvas</h2>
+        <div class="instructions">
+          <p><span>*Can be drag to add color to multiple cells</span class="inst"></p>
+            <p><span class="inst">*Double click to remove color</span></p>
+        </div>
+    <table id="pixelCanvas"></table>
+  </div>
+
+    <script src="designs.js"></script>
+</body>
+</html>
