@@ -21,8 +21,8 @@ body {
 }
 
 hr {
-    height: 8px;
-    background-color: grey;
+    height: 5px;
+    background-color: #4169e1;
 }
 
 h1,
@@ -37,17 +37,18 @@ h1,
 
 h2,
 .h2 {
+    font-family: 'Titillium Web';
     text-align: center;
-    font-size: 1.25em;
+    font-size: 2em;
     color: #00bfff;
     margin-top: 0;
 }
 
 h3,
 .h3 {
-    font-family: 'Titillium Web', Source Sans Pro;
+    font-family: 'Source Sans Pro';
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     color: #7d97ad;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -136,9 +137,9 @@ a {
 
 .img-responsive {
     display: block;
+    height: 375px;
     width: 100%;
     max-width: 100%;
-    height: auto;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
