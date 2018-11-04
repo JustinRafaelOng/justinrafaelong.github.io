@@ -167,6 +167,8 @@ a {
 
 #img-main {
     margin-top: 15px;
+    height: 100px;
+    width: 100px;
 }
 
 .row-feature {
