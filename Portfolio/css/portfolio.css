@@ -54,10 +54,9 @@ h3,
     margin-bottom: 5px;
 }
 
-a {
-    text-decoration: none;
-    font-family: 'Raleway', cursive;
-    color: red;
+p {
+    font-family: 'Titillium Web';
+    color: #002366;
     font-size: 1.5em;
 }
 
